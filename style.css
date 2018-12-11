@@ -63,6 +63,7 @@
     position:absolute;
     top:0px;
     right:0px;
+    display:none;
 }
 #more{
     font-size:80px;

@@ -4,7 +4,7 @@ window.onload=function(){
     var click=document.getElementById("click");
     var time=document.getElementById("time")
     var time_list=document.getElementsByTagName("span");
-
+    time.style.display="block";
     function changetime(){
     var date=new Date()
     time_list[0].textContent=date.getFullYear();
